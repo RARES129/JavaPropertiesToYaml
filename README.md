@@ -21,7 +21,6 @@ Properties files are widely used in Java applications, but they are flat and lac
 - Parse a `.properties` file
 - Transform its key-value pairs into a well-formatted `.yaml` file
 - Ensure the output maintains consistent structure and readability
-- Provide a clean, CLI-based interface for easy usage
 
 ---
 
@@ -37,7 +36,7 @@ Properties files are widely used in Java applications, but they are flat and lac
 2. Ensure you have [Maven](https://maven.apache.org/) and JDK 21 installed.
 
 3. Build the project:
-   Open Command Prompt
+   - Open Command Prompt
    ```bash
    mvn compile
    ```
@@ -50,13 +49,13 @@ Properties files are widely used in Java applications, but they are flat and lac
 
 - Java 21+
 - Maven
-- `application.properties` file (input)
+- Input path for `application.properties`
 - Output path for `application.yaml`
 
 ### ▶ Run the application
 
 From the root directory (where `pom.xml` is located), use:
-Open Command Prompt
+- Open Command Prompt
 
 ```bash
 
